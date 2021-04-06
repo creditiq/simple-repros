@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es2017",
+    "lib": ["esnext", "dom"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "rootDirs": ["src", "temp/sass-ts"],
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "inlineSources": true,
+    "sourceMap": true,
+
+    // "strict" : true, //  would be great to enable this and remove the following if we can fix all the errors
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "plugins": []
+  },
+  "compileOnSave": false,
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
