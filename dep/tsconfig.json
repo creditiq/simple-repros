@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "skipLibCheck": true,
     "target": "es2017",
     "lib": ["esnext", "dom"],

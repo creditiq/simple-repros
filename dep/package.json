@@ -7,8 +7,12 @@
   "typings": "dist/index.d.ts",
   "sideEffects": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "heft build --verbose"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@rushstack/heft": "^0.26.0",
+    "typescript": "^4.2.3"
+  }
 }

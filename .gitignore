@@ -117,3 +117,5 @@ dist-commonjs/
 
 # Vim tags file (because they're generated based on user-configurable settings)
 tags
+
+tsconfig.tsbuildinfo
