@@ -1,5 +1,7 @@
 import { aFunction, MappedMap, myConst } from "./subfile";
 
+export * from './subfile';
+
 const newConst = {
   someKey: myConst,
 };

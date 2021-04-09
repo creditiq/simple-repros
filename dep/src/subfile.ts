@@ -205,6 +205,7 @@ export const keys = [
 ] as const;
 
 export type Keys = typeof keys[number];
+export type TemplateKey = `my_${Keys}`;
 export type MappedKeys = {
   [k in Keys]: (arg: k) => number;
 };

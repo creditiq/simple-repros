@@ -12,5 +12,5 @@
     "**/node_modules": true,
     "**/tmp": true,
     "**/dist": true
-  }
+  },
 }
