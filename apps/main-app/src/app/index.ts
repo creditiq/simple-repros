@@ -1,4 +1,4 @@
-import { getStuff } from 'webpack-side-effects-bug-dep';
+import { getStuff } from 'compile-perf-dep';
 
 // import * as classnames from 'classnames';
 

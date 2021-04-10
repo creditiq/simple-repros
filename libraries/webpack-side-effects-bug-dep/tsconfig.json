@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "skipLibCheck": true,
     "target": "es2017",
     "lib": ["esnext", "dom"],
@@ -9,13 +10,13 @@
     "module": "esnext",
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "composite": true,
     "declaration": true,
     "declarationMap": true,
     "removeComments": true,
     "inlineSources": true,
     "sourceMap": true,
 
-    // "strict" : true, //  would be great to enable this and remove the following if we can fix all the errors
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
@@ -24,7 +25,7 @@
     "resolveJsonModule": true,
     "jsx": "react",
     "plugins": [],
-    "types": ["node"]
+    "types": []
   },
   "compileOnSave": false,
   "include": ["src/**/*"],

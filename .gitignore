@@ -114,8 +114,7 @@ common/autoinstallers/*/.npmrc
 build/
 dist/
 dist-commonjs/
+dist-esm/
 
 # Vim tags file (because they're generated based on user-configurable settings)
-tags
-
-tsconfig.tsbuildinfo
+.tags

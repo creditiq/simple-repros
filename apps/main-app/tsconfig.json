@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "incremental": true,
     "skipLibCheck": true,
     "target": "es2017",
     "lib": ["esnext", "dom"],
@@ -15,18 +14,24 @@
     "removeComments": true,
     "inlineSources": true,
     "sourceMap": true,
-
-    // "strict" : true, //  would be great to enable this and remove the following if we can fix all the errors
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
-
     "resolveJsonModule": true,
     "jsx": "react",
-    "plugins": []
+    "plugins": [],
+    "types": []
   },
   "compileOnSave": false,
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist"],
+  "references": [
+    {
+      "path": "../../libraries/compile-perf-dep"
+    },
+    {
+      "path": "../../libraries/webpack-side-effects-bug-dep"
+    }
+  ]
 }

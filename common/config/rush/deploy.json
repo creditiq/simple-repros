@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/deploy-scenario.schema.json",
+  "deploymentProjectNames": [],
+  "includeDevDependencies": false,
+  "includeNpmIgnoreFiles": false,
+  "omitPnpmWorkaroundLinks": false,
+  "projectSettings": []
+}
