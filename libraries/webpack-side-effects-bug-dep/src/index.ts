@@ -1,5 +1,7 @@
+import { importantFnThatNeedsToBeIncluded } from './subproj';
+
 export const getSomeStuff = () => {
   return {
-    someFunc: () => 2,
+    someFunc: () => importantFnThatNeedsToBeIncluded(),
   };
 };

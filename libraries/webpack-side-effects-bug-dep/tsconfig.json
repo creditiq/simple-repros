@@ -30,4 +30,7 @@
   "compileOnSave": false,
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
+  // // comment this in to see a broken build as an example of the problem described here:
+  // // https://github.com/microsoft/rushstack/issues/2604#issuecomment-818996848
+  // "references": [{ "path": "./src/subproj" }]
 }
