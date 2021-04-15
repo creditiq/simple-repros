@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@bessonovs/set-project-references": "0.0.8"
+    "@bessonovs/set-project-references": "0.0.9"
   }
 }

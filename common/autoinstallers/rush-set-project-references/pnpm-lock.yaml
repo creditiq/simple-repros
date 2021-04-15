@@ -1,10 +1,11 @@
 dependencies:
-  '@bessonovs/set-project-references': 0.0.8
+  '@bessonovs/set-project-references': 0.0.9
 lockfileVersion: 5.2
 packages:
-  /@bessonovs/set-project-references/0.0.8:
+  /@bessonovs/set-project-references/0.0.9:
     dependencies:
       commander: 4.0.1
+      comment-json: 4.1.0
       detect-indent: 6.0.0
       glob: 7.1.6
       js-yaml: 3.13.1
@@ -12,13 +13,17 @@ packages:
     dev: false
     hasBin: true
     resolution:
-      integrity: sha512-2HZ4ULyGDxVdwDurDqdcvp5wiV+ol7/+vI/FzJfw919AAi0msG84KCklU660/MBCOx/ZC6uZP40UiYVUgrRMpA==
+      integrity: sha512-ugrPyM3t9TfC4gutz0sf/TwhkAgR2eHrKvhLdVioprUquIHAzEoIOWNjojaRkw80uulN8j5qYJs/3bJKv3Q9rA==
   /argparse/1.0.10:
     dependencies:
       sprintf-js: 1.0.3
     dev: false
     resolution:
       integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
+  /array-timsort/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==
   /balanced-match/1.0.2:
     dev: false
     resolution:
@@ -36,10 +41,26 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-IPF4ouhCP+qdlcmCedhxX4xiGBPyigb8v5NeUp+0LyhwLgxMqyp3S0vl7TAPfS/hiP7FC3caI/PB9lTmP8r1NA==
+  /comment-json/4.1.0:
+    dependencies:
+      array-timsort: 1.0.3
+      core-util-is: 1.0.2
+      esprima: 4.0.1
+      has-own-prop: 2.0.0
+      repeat-string: 1.6.1
+    dev: false
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-WEghmVYaNq9NlWbrkzQTSsya9ycLyxJxpTQfZEan6a5Jomnjw18zS3Podf8q1Zf9BvonvQd/+Z7Z39L7KKzzdQ==
   /concat-map/0.0.1:
     dev: false
     resolution:
       integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  /core-util-is/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
   /detect-indent/6.0.0:
     dev: false
     engines:
@@ -68,6 +89,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
+  /has-own-prop/2.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-Pq0h+hvsVm6dDEa8x82GnLSYHOzNDt7f0ddFa3FqcQlgzEiptPqL+XrOJNavjOzSYiYWIrgeVYYgGlLmnxwilQ==
   /inflight/1.0.6:
     dependencies:
       once: 1.4.0
@@ -109,6 +136,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  /repeat-string/1.6.1:
+    dev: false
+    engines:
+      node: '>=0.10'
+    resolution:
+      integrity: sha1-jcrkcOHIirwtYA//Sndihtp15jc=
   /sprintf-js/1.0.3:
     dev: false
     resolution:
@@ -118,4 +151,4 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
-  '@bessonovs/set-project-references': 0.0.8
+  '@bessonovs/set-project-references': 0.0.9
