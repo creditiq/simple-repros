@@ -1,8 +1,0 @@
-{
-  "name": "rush-set-project-references",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@bessonovs/set-project-references": "0.0.9"
-  }
-}

@@ -1,3 +1,0 @@
-{
-  "heftPlugins": [{ "plugin": "@rushstack/heft-webpack5-plugin" }]
-}

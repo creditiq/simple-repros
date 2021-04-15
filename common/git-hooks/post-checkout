@@ -1,2 +1,0 @@
-#!/bin/sh
-rush update --max-install-attempts 1 || exit $?
