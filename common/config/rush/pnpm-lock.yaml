@@ -6,8 +6,8 @@ importers:
       compile-perf-dep: link:../../libraries/compile-perf-dep
       webpack-side-effects-bug-dep: link:../../libraries/webpack-side-effects-bug-dep
     devDependencies:
-      '@rushstack/heft': 0.28.2
-      '@rushstack/heft-webpack5-plugin': 0.1.1_@rushstack+heft@0.28.2
+      '@rushstack/heft': 0.28.3
+      '@rushstack/heft-webpack5-plugin': 0.1.1_@rushstack+heft@0.28.3
       autoprefixer: 8.6.5
       css-loader: 5.2.1_webpack@5.33.2
       duplicate-package-checker-webpack-plugin: 3.0.0
@@ -33,7 +33,7 @@ importers:
       webpack: 5.33.2
       webpack-bundle-analyzer: 4.4.0
     specifiers:
-      '@rushstack/heft': ^0.28.1
+      '@rushstack/heft': ^0.28.3
       '@rushstack/heft-webpack5-plugin': ^0.1.0
       autoprefixer: ^8.6.5
       compile-perf-dep: workspace:*
@@ -63,26 +63,26 @@ importers:
       webpack-side-effects-bug-dep: workspace:*
   ../../libraries/compile-perf-dep:
     devDependencies:
-      '@rushstack/heft': 0.28.2
+      '@rushstack/heft': 0.28.3
       typescript: 4.2.4
       webpack-side-effects-bug-dep: link:../webpack-side-effects-bug-dep
     specifiers:
-      '@rushstack/heft': ^0.28.1
+      '@rushstack/heft': ^0.28.3
       typescript: ^4.2.3
       webpack-side-effects-bug-dep: workspace:*
   ../../libraries/rig-rig-test:
     dependencies:
-      '@rushstack/heft': 0.28.2
-      '@rushstack/heft-webpack5-plugin': 0.1.1_@rushstack+heft@0.28.2
+      '@rushstack/heft': 0.28.3
+      '@rushstack/heft-webpack5-plugin': 0.1.1_@rushstack+heft@0.28.3
     specifiers:
-      '@rushstack/heft': ^0.28.1
+      '@rushstack/heft': ^0.28.3
       '@rushstack/heft-webpack5-plugin': ^0.1.0
   ../../libraries/webpack-side-effects-bug-dep:
     devDependencies:
-      '@rushstack/heft': 0.28.2
+      '@rushstack/heft': 0.28.3
       typescript: 4.2.4
     specifiers:
-      '@rushstack/heft': ^0.28.1
+      '@rushstack/heft': ^0.28.3
       typescript: ^4.2.3
 lockfileVersion: 5.2
 packages:
@@ -584,9 +584,9 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-J4x2zUF7kUhwzvvcXqfK/UTtsdivYYnIAGKxLVamDStGXmb1Fcg7U4I64BW6TlU8PKodDZygSncuQmKNoz4/LQ==
-  /@rushstack/heft-webpack5-plugin/0.1.1_@rushstack+heft@0.28.2:
+  /@rushstack/heft-webpack5-plugin/0.1.1_@rushstack+heft@0.28.3:
     dependencies:
-      '@rushstack/heft': 0.28.2
+      '@rushstack/heft': 0.28.3
       '@rushstack/node-core-library': 3.36.2
       webpack: 5.31.2
       webpack-dev-server: 3.11.2_webpack@5.31.2
@@ -594,7 +594,7 @@ packages:
       '@rushstack/heft': ^0.28.2
     resolution:
       integrity: sha512-R+0FWGSNU5+Gr6OCIn7oV8laEU3PgJkphQqMI95bLWj5qLF+eed5xp+W4o9Zp1aGCOGtRm2581u5RycSuHE0jw==
-  /@rushstack/heft/0.28.2:
+  /@rushstack/heft/0.28.3:
     dependencies:
       '@jest/core': 25.4.0
       '@jest/reporters': 25.4.0
@@ -622,7 +622,7 @@ packages:
       node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-ICLjOoEMAuCELVg5iIwFlCQreXPMX9KJCgmD+FfCRA5QA1ASL/tsV/QlulTPKvMHIuIcQ3hGO6EmBMKQHZ2LAQ==
+      integrity: sha512-GWZqTSLBWY+6JRlUIex4DN8tKDNsD0gputRs9dLTKXpTbDEF0bmsDfnceWxbJOSQH5moIGHoT+BVgP7nVkTG8g==
   /@rushstack/node-core-library/3.36.2:
     dependencies:
       '@types/node': 10.17.13
