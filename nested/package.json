@@ -1,0 +1,22 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build",
+    "build:debug": "node --inspect-brk webpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creditiq/simple-repros"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "resolve-url-loader": "^3.1.2",
+    "webpack": "file:../../../scamden/webpack",
+    "webpack-cli": "^4.6.0"
+  },
+  "description": "placeholder",
+  "license": "UNLICENSED"
+}
