@@ -1,0 +1,16 @@
+{
+  "name": "rig-rig-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test": "",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rushstack/heft-webpack5-plugin": "^0.1.0",
+    "@rushstack/heft": "^0.28.1"
+  }
+}

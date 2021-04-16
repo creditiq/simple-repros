@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "es2017",
+    "lib": ["esnext", "dom"],
+    "outDir": "../../../../dist",
+    "rootDir": "../../../../src",
+    "rootDirs": ["../../../../src", "../../../../temp/sass-ts"],
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "inlineSources": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "plugins": [],
+    "types": []
+  },
+  "compileOnSave": false,
+  "include": ["../../../../src/**/*"],
+  "exclude": ["../../../../node_modules", "../../../../dist"]
+}

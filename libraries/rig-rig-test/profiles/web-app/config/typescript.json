@@ -1,0 +1,21 @@
+{
+  "staticAssetsToCopy": {
+    "fileExtensions": [
+      // for prettier line wrap
+      ".css",
+      ".scss",
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".gif",
+      ".pdf",
+      ".ico",
+      ".eot",
+      ".woff",
+      ".woff2",
+      ".ttf",
+      ".otf",
+      ".svg"
+    ]
+  }
+}

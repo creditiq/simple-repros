@@ -35,6 +35,10 @@
     {
       "packageName": "compile-perf-dep",
       "projectFolder": "libraries/compile-perf-dep"
+    },
+    {
+      "packageName": "rig-rig-test",
+      "projectFolder": "libraries/rig-rig-test"
     }
   ]
 }

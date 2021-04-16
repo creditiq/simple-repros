@@ -17,6 +17,7 @@
   },
   "peerDependencies": {},
   "devDependencies": {
+    "rig-rig-test": "workspace:*",
     "@rushstack/heft": "^0.28.1",
     "@rushstack/heft-webpack5-plugin": "^0.1.0",
     "lodash": "^4.17.21",
