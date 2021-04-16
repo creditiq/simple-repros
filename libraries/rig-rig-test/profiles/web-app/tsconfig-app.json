@@ -1,7 +1,9 @@
 {
   "extends": "../default/tsconfig-base.json",
   "compilerOptions": {
-    "outDir": "../../../../dist",
+    // // comment in this line to get static assets into dist
+    // // comment out to see them show up in the root of the mono repo
+    // "outDir": "../../../../dist",
     "declaration": false,
     "declarationMap": false
   }
